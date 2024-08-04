@@ -7,7 +7,7 @@ services:
     image: mysql:v1.0.0
     container_name: mysql
   backend:
-    image: backend:v2.0.0
+    image: backend:v1.0.0
     container_name: backend
     depends_on:
     - mysql
